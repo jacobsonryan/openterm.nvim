@@ -1,1 +1,1 @@
-vim.api.nvim_command("command! OpenTerm lua require'openterm'.open()")
+vim.api.nvim_command("command! OpenWorkingTerm lua require'openterm'.open()")
