@@ -1,1 +1,1 @@
-# openterm.nvim
+# workingterm.nvim
