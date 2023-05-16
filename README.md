@@ -28,5 +28,6 @@ require('workingterm').setup({
 ## Usage
 ```lua
 local keymap = vim.api.nvim_set_keymap
+
 keymap("n", "<C-n>", ":OpenWorkingTerm<cr>", { silent = true })
 ```
