@@ -13,7 +13,7 @@ Packer \
 ```use 'jacobsonryan/workingterm.nvim'```
 
 ## Setup
-```
+```lua
 require('workingterm').setup({
   -- Set a key to switch from Terminal Mode to Normal Mode
   -- Default mapping is <C-/><C-n>
