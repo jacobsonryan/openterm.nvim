@@ -7,10 +7,10 @@ This small plugin allows you to open up Neovim's terminal emulator in the curren
 ### Installing
 
 Vim-plug \
-```Plug 'jacobsonryan/workingterm.nvim```
+```Plug 'jacobsonryan/workingterm.nvim'```
 
 Packer \
-```use 'jacobsonryan/workingterm.nvim```
+```use 'jacobsonryan/workingterm.nvim'```
 
 ## Setup
 ```
