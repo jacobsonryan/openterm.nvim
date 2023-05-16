@@ -6,12 +6,12 @@ This small plugin allows you to open up Neovim's terminal emulator in the curren
 
 ### Installing
 
-[vim-plug](https://github.com/junegunn/vim-plug) \
+[vim-plug](https://github.com/junegunn/vim-plug) 
 ```lua
 Plug 'jacobsonryan/workingterm.nvim'
 ```
 
-[packer.nvim](https://github.com/wbthomason/packer.nvim) \
+[packer.nvim](https://github.com/wbthomason/packer.nvim) 
 ```lua
 use 'jacobsonryan/workingterm.nvim'
 ```
