@@ -22,4 +22,4 @@ require('workingterm').setup({
 ```
 
 ## Usage
-Use ```:OpenWorkingTerm<``` to open the termihal in a new tab.
+Use ```:OpenWorkingTerm``` to open the termihal in a new tab.
