@@ -20,3 +20,6 @@ require('workingterm').setup({
   key = '<Esc>'
 })
 ```
+
+## Usage
+Use ```:OpenWorkingTerm<cr>``` to open the termihal in a new tab.
