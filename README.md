@@ -6,11 +6,15 @@ This small plugin allows you to open up Neovim's terminal emulator in the curren
 
 ### Installing
 
-Vim-plug \
-```Plug 'jacobsonryan/workingterm.nvim'```
+[vim-plug](https://github.com/junegunn/vim-plug) \
+```lua
+Plug 'jacobsonryan/workingterm.nvim'
+```
 
-Packer \
-```use 'jacobsonryan/workingterm.nvim'```
+[packer.nvim](https://github.com/wbthomason/packer.nvim) \
+```lua
+use 'jacobsonryan/workingterm.nvim'
+```
 
 ## Setup
 ```lua
@@ -22,4 +26,7 @@ require('workingterm').setup({
 ```
 
 ## Usage
-Use ```:OpenWorkingTerm``` to open the termihal in a new tab.
+```lua
+local keymap = vim.api.nvim_set_keymap
+keymap("n", "<C-n>", ":OpenWorkingTerm<cr>", { silent = true })
+```
