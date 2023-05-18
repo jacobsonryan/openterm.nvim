@@ -31,3 +31,10 @@ local keymap = vim.api.nvim_set_keymap
 
 keymap("n", "<C-n>", ":WorkingTermTabbed<cr>", { silent = true })
 ```
+## Other Commands
+```lua
+:WorkingTermVSplit
+```
+```lua
+:WorkingTermHSplit
+```
