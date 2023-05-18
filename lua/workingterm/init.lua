@@ -17,4 +17,18 @@ M.tab = function()
   vim.api.nvim_command(command)
 end
 
+M.vsplit = function()
+  local cwd = vim.fn.getcwd()
+  vim.api.nvim_command("botright vsplit | terminal")
+  local command = ':call jobsend(b:terminal_job_id, "cd ' .. cwd .. '\\n")'
+  vim.api.nvim_command(command)
+end
+
+M.hsplit = function()
+  local cwd = vim.fn.getcwd()
+  vim.api.nvim_command("below split | terminal")
+  local command = ':call jobsend(b:terminal_job_id, "cd ' .. cwd .. '\\n")'
+  vim.api.nvim_command(command)
+end
+
 return M
