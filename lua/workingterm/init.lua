@@ -10,7 +10,7 @@ M.setup = function(key)
   end
 end
 
-M.open = function()
+M.tab = function()
   local cwd = vim.fn.getcwd()
   vim.api.nvim_command("tabnew | terminal")
   local command = ':call jobsend(b:terminal_job_id, "cd ' .. cwd .. '\\n")'
@@ -19,9 +19,9 @@ end
 
 M.vsplit = function()
   local cwd = vim.fn.getcwd()
-  vim.api.nvim_command("vertical | terminal")
+  vim.api.nvim_command("vsplit | terminal")
+  vim.api.nvim_command("<C-w>w")
   local command = ':call jobsend(b:terminal_job_id, "cd ' .. cwd .. '\\n")'
   vim.api.nvim_command(command)
 end
-
 return M
