@@ -32,9 +32,11 @@ local keymap = vim.api.nvim_set_keymap
 keymap("n", "<C-n>", ":WorkingTermTabbed<cr>", { silent = true })
 ```
 ## Other Commands
+Vertical Split Terminal
 ```lua
 :WorkingTermVSplit
 ```
+Horizontal Split Terminal
 ```lua
 :WorkingTermHSplit
 ```
